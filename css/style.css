@@ -1,0 +1,57 @@
+﻿body{background: url(../img/bg.png) 0 0 repeat;}
+.wrap{width:1000px; margin:0 auto;}
+/* header */
+.header{padding-top:15px;}
+.header .logo a{float: left;}
+.header .logo .logo-img{margin-left:20px; margin-right: 28px;}
+.header .nav{margin-right:50px; margin-top:20px;}
+.header .nav li{float: left;}
+.header .nav li a{display: block; background: url(../img/nav.png) 0 0  scroll no-repeat transparent; height:43px; width:108px; text-indent:-9999px;}
+.header .nav li a.iphone{background-position:0 0;}
+.header .nav li a.ipad{background-position:-110px 0px;}
+.header .nav li a.Android{background-position:-221px 0px;}
+.header .nav li a.iphone.iphone-current{background-position:0px -43px;}
+.header .nav li a.ipad.ipad-current{background-position:-110px -43px;}
+.header .nav li a.Android.Android-current{background-position:-221px -43px;}
+
+/* main  */
+.main{background-color:white; position:relative; width:930px; margin:0 34px; margin-top:12px; padding-bottom: 10px;}
+.main .corner li{position:absolute; background: url(../img/corner.png) 0 0 no-repeat; height:27px; width: 33px; text-indent: -9999px;}
+.main .corner li.top-left-corner{background-position: 0 0 ; }
+.main .corner li.bottom-left-corner{background-position: 0 -61px; bottom:0px;}
+.main .corner li.top-right-corner{background-position: right 0; right:0px; }
+.main .corner li.bottom-right-corner{background-position: right -61px; bottom:0px; right:0px;}
+.main .content-left{width: 490px;}
+.main .content-left .iphone-slider{margin-right:90px; margin-top:17px; position: relative;}
+.main .content-left .slider-block{position: absolute; top:44px; left:19px; height:276px; width:184px;}
+.main .content-left .slider-block.slider-home{top:78px;}
+.main .content-left .slider-block li{position: absolute; height:276px; width:184px;}
+.main .animation{position:absolute; left:-117px; bottom:3px; }
+.main .animation.Android-img{position:absolute; left:-148px; bottom:1px;}
+.main .content-right{width:440px;}
+.main .content-right .iphone-intro{margin-top:12px;}
+.main .content-right .free{margin-left:25px;}
+.main .product-intro{margin-left:30px; width:180px;}
+.main .product-intro p{color:#592E00; line-height: 18px; font-size: 16px; padding-bottom: 4px;}
+.main .download{margin-left:24px;}
+.main .download a{display: block; height:26px; margin-bottom:10px;	width:72px; color:#fff; background: url(../img/icon.png) repeat scroll 0 0 transparent; line-height: 26px; text-align: center;}
+.main .download a:hover{text-decoration: none;}
+.main .information{margin-top:10px; margin-left:12px; margin-bottom: 20px;}
+.main .information p{color:#592E00;  line-height: 20px;}
+
+/* friend-link */
+.friend-link{background: url(../img/bar.png) 0 0 scroll no-repeat; height:116px; margin-left:15px; padding-left:230px;}
+.friend-link a{float:left; width:167px; text-align: center;}
+.friend-link a:hover{text-decoration: none;}
+.friend-link a p{color:#fff; margin-top:5px; font-size: 14px; }
+
+/* footer  */
+.footer{text-align: center; color:#595757; margin-top:15px; padding-bottom: 10px;}
+.footer p{margin-bottom: 5px;}
+
+/* ipad.html */
+.main .ipad-slider{position: relative; margin-bottom: 20px;}
+.main .ipad-slider{margin-top:105px; margin-left:30px;}
+.main .ipad-slider-block{position: absolute; height:251px;width:336px; top:36px; left:28px;}
+.main .ipad-slider-block li{position: absolute; height:251px;width:336px;}
+.main .ipad-slider .pad{position: absolute; right:60px; top:-95px;}
